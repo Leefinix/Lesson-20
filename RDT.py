@@ -11,4 +11,4 @@ def getRandomDate(startDate, endDate):
     randomDate = time.strftime(dateFormat, time.localtime(randomTime))
     return randomDate
 
-print("Random Date = ", getRandomDate("1/1/2020", "12/12/2024"))
+print("Random Date =", getRandomDate("1/1/2020", "12/12/2024"))
